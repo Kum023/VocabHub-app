@@ -95,7 +95,7 @@ function setup() {
             var mainPage = select('#main-page');
             var bodyTag = select('body');
             mainPage.removeClass('d-none');
-            bodyTag.style('background-color', '#f2f2fc');
+            bodyTag.style('background', '#f2f2fc');
 
             
             createHomePage();
